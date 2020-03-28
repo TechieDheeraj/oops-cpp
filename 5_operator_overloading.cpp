@@ -66,7 +66,7 @@ ostream & operator <<(ostream &out, Complex &x) { // Stream Insertion Operator (
    return out;
 }
 
-istream & operator >>(istream &in, Complex &x) { // Stream Insertion Operator (<<)
+istream & operator >>(istream &in, Complex &x) { // Stream Extraction Operator (>>)
    in >> x.real >> x.img;
    return in;
 }
